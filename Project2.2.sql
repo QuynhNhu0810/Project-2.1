@@ -28,7 +28,6 @@ from cte
 ,concat(round((next_rev - TPV)/TPV*100.0,2),"%") as Revenue_growth
 ,concat(round((next_order - TPO)/TPO*100.0,2),"%") as Order_growth
 ,round(Total_profit/Total_cost,2) as Profit_to_cost_ratio 
-,
 from cte2
   
 
